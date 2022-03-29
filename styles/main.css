@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: gray;
+}
+
+.game {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 1000 px;
+  border: 3px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 50px;
+}
+
+.subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  margin: 19px 0;
+}
+
+.onetosix,
+.howmuch {
+  height: 30px;
+  width: 230px;
+}
+
+.btn {
+  width: 50px;
+  height: 30px;
+  color: #fff;
+  background-color: rgba(40, 230, 230, 0.932);
+  border-radius: 5px;
+  border: 1px solid darkslategray;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
+}
+
+.letsplay {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 20px 0;
+}
+
+.balance {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.output {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}

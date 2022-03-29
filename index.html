@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Ejercicio de evaluaición intermedia</title>
+  </head>
+  <body>
+    <main class="main">
+
+      <section class="game">
+        <h1 class="title">Dados y Apuestas</h1>
+        <h2 class="subtitle">Introduce aquí tu jugada:</h2>
+        <form class="input">
+          <select
+            type="text"
+            class="js-onetosix onetosix"
+            id="onetosix"
+            name="onetosix"
+            placeholder="Qué número apuestas del 1 al 6"
+            list="number"
+            required>
+            <option selected disabled>
+              Qué número apuestas del 1 al 6
+            </option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+          </select>
+          
+          <input 
+            type="number"
+            class="js-howmuch howmuch"
+            id="howmuch"
+            name="howmuch"
+            placeholder="¿Cuánto apuestas?"
+            required>
+
+          <input
+            class="js-btn btn"
+            id="btn"
+            name="btn"
+            type="submit"
+            value="Jugar">
+
+        </form>
+
+        <h2 class="letsplay">Vamos a Jugar!</h2>
+          <p class="balance">Saldo: </p>
+          <p class="js-output output"></p>
+
+      </section>
+
+
+      <section class="js-result"></section>
+    </main>
+    <script type="text/javascript" src="./js/main.js"></script>
+    
+  </body>
+</html>
